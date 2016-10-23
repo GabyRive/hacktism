@@ -126,7 +126,9 @@ background-attachment: fixed;
 
 /*Los Sintomas - Comienza */
 #sintomas .header-section {
-  background-image: url('../img/autismo6.jpg');
+  background-image: url('../images/autismo6.jpg');
+  background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 #sintomas p {

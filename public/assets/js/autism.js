@@ -35,4 +35,10 @@ $(document).ready(function() {
       });
     });
 
+    $('#autism-sy').on('click', function() {
+      $.get('autism-sy.html', function(data) {
+        $('#content').html(data);
+      });
+    });
+
 });
