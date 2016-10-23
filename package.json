@@ -1,16 +1,16 @@
 {
   "name": "hacktivsm",
   "version": "1.0.0",
-  "description": "\"Educational Web Page about Autism\"",
+  "description": "Educational Web Page about Autism",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GabyRive/hacktivsm.git"
   },
-  "author": "\"Gabriela Rivera\", \"Edrick Pomales\", \"Aimee Siberon\", \"Karina Robledo\"",
+  "author": "Gabriela Rivera, Edrick Pomales, Aimee Siberon, Karina Robledo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GabyRive/hacktivsm/issues"

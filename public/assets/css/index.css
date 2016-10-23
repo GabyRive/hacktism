@@ -1,0 +1,20 @@
+.container-fluid{
+  padding: 0px;
+}
+.carousel {
+   position: relative;
+   height: calc(100vh - 60px);
+}
+
+.carousel-caption > h3 {
+  font-size: 60px;
+}
+
+.carousel-caption > p {
+  font-size: 20px;
+}
+
+.carousel-inner > .item > img{
+  width:100%;
+  height:calc(100vh - 60px);
+}
