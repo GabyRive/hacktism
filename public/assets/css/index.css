@@ -1,20 +1,171 @@
-.container-fluid{
-  padding: 0px;
+@font-face {
+    font-family: rosylee;
+    src: url('../fonts/DK-Rosy-Lee.otf');
 }
+
+h3 {
+  font-family: rosylee;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
 .carousel {
-   position: relative;
-   height: calc(100vh - 60px);
+    position: relative;
+    height: calc(100vh - 60px);
 }
 
-.carousel-caption > h3 {
-  font-size: 60px;
+.carousel-caption>h3 {
+    font-size: 60px;
+    font-family: rosylee;
 }
 
-.carousel-caption > p {
-  font-size: 20px;
+.carousel-caption>p {
+    font-size: 20px;
 }
 
-.carousel-inner > .item > img{
-  width:100%;
-  height:calc(100vh - 60px);
+.carousel-inner>.item>img {
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+
+#about-us {
+    border: 1px solid grey;
+    padding: 0px 40px 0 40px;
+    background-color: rgb(14, 41, 121);
+}
+
+/*Estadisticas*/
+
+#statistics {
+    padding-top: 70px;
+}
+
+/*Termina Estadistica*/
+
+/*La Causa - Comienza */
+.header-section {
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#causas .header-section {
+    background-image: url('../images/autismo.jpg');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.texto {
+    font-size: 18px;
+}
+
+.imagen-cabeza img {
+    width: 560px;
+    padding-left: 100px;
+}
+
+.feature-left-content h3 {
+    font-size: 19px;
+}
+
+.feature-left-content p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+/*La Causa - Termina */
+
+/*Que es el autismo - Comienza */
+#autismo .header-section {
+  background-image: url('../images/autismo4.jpg');
+  background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.header-section {
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagen-mano img {
+  width: 100%;
+}
+
+.autismo-def p {
+  font-size: 18px;
+}
+
+.autismo-def ul {
+  font-size: 18px;
+}
+
+.autismo-sindrome p {
+  font-size: 18px;
+}
+
+.imagen-pintura img {
+  width: 100%;
+}
+
+/*Que es el autismo - Termina */
+
+/*Los Sintomas - Comienza */
+#sintomas .header-section {
+  background-image: url('../img/autismo6.jpg');
+}
+
+#sintomas p {
+  font-size: 18px;
+}
+
+.imagen-ideas img {
+  width: 75%;
+}
+
+#lista-sintomas img {
+  width: 100%;
+}
+
+#lista-sintomas .puzzle-1 img {
+  float: left;
+  margin-left: 150px;
+}
+
+#lista-sintomas .puzzle-2 {
+  float: right;
+  margin-top: -300px;
+  margin-right: 150px;
+}
+
+#lista-sintomas .puzzle-3 {
+  float: left;
+  margin-top: -100px;
+  margin-left: 150px;
+}
+
+#lista-sintomas .puzzle-4 {
+  float: right;
+  margin-top: -300px;
+  margin-right: 150px;
+}
+
+/*Los Sintomas - Termina */
+
+.right-side {
+ float: right;
 }

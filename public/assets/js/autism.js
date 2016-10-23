@@ -26,14 +26,13 @@ $(document).ready(function() {
   $('#statistics-local').on('click', function() {
     $.get('statistics-local.html', function(data) {
       $('#content').html(data);
-      //eliminate #about us
     });
   });
 
-// $(#fixed-carousel).on('clock', function(){
-//   $.toggle()
-// }) to click and come up or fixed carousel
-
-
+    $('#autism-causes').on('click', function() {
+      $.get('autism-causes.html', function(data) {
+        $('#content').html(data);
+      });
+    });
 
 });
